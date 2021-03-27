@@ -7,7 +7,7 @@
 
 ; Replace with your application code
 start:
-    LDI R16, 0xFF
+        LDI R16, 0xFF
 	OUT DDRB, R16
 LOOP:
 	SBI PORTB, 5
